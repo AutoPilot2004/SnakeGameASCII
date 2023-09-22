@@ -15,18 +15,18 @@ cd build
 
 For multi-config generators:
 
-	```shell
+```shell
 
-	cmake .. [-G <"Visual Studio 17 2022", ...>]
-	cmake --build . [--config <Debug/Release/RelWithDebInfo>]
+cmake .. [-G <"Visual Studio 17 2022", ...>]
+cmake --build . [--config <Debug/Release/RelWithDebInfo>]
 
-	```
+```
 
 For single-config generators:
 
-	```shell
+```shell
 
-	cmake .. [-DCMAKE_BUILD_TYPE=<Debug/Release/RelWithDebInfo>] [-G <"Ninja", ...>]
-	cmake --build .
+cmake .. [-DCMAKE_BUILD_TYPE=<Debug/Release/RelWithDebInfo>] [-G <"Ninja", ...>]
+cmake --build .
 
-	```
+```
