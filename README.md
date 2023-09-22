@@ -39,7 +39,7 @@ For single-config generators (e.g. `Ninja`):
 
 	```shell
 
-	cmake -DCMAKE_BUILD_TYPE=Debug ..
+	cmake .. -DCMAKE_BUILD_TYPE=Debug
 	cmake --build .
 
 	```
@@ -48,7 +48,7 @@ For single-config generators (e.g. `Ninja`):
 
 	```shell
 
-	cmake -DCMAKE_BUILD_TYPE=Release ..
+	cmake .. -DCMAKE_BUILD_TYPE=Release
 	cmake --build .
 
 	```
