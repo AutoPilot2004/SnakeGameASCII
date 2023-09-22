@@ -33,7 +33,7 @@ For multi-config generators (e.g. `Visual Studio`):
 
 	```
 
-For single-config generators (e.g. `Makefile`):
+For single-config generators (e.g. `Ninja`):
 
 - Debug:
 
