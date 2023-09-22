@@ -2,10 +2,10 @@
 
 To build this project you will need [cmake](https://cmake.org/) (minimum version required is 3.27.0)
 
-After cloning this git repo and opening the folder:
-
 ```shell
 
+git clone https://github.com/AutoPilot2004/SnakeGameASCII.git
+cd SnakeGameASCII
 mkdir build
 cd build
 
@@ -13,7 +13,7 @@ cd build
 
 ## Windows ##
 
-For multi-configuration build tools:
+For multi-config generators (e.g. `Visual Studio`):
 
 - Debug:
 
@@ -33,7 +33,7 @@ For multi-configuration build tools:
 
 	```
 
-For other type of build tools:
+For single-config generators (e.g. `Makefile`):
 
 - Debug:
 
