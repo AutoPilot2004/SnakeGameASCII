@@ -13,42 +13,20 @@ cd build
 
 ## Windows ##
 
-For multi-config generators (e.g. `Visual Studio`):
-
-- Debug:
+For multi-config generators:
 
 	```shell
 
-	cmake ..
-	cmake --build . --config Debug
+	cmake .. [-G <"Visual Studio 17 2022", ...>]
+	cmake --build . [--config <Debug/Release/RelWithDebInfo>]
 
 	```
 
-- Release:
+For single-config generators:
 
 	```shell
 
-	cmake ..
-	cmake --build . --config Release
-
-	```
-
-For single-config generators (e.g. `Ninja`):
-
-- Debug:
-
-	```shell
-
-	cmake .. -DCMAKE_BUILD_TYPE=Debug
-	cmake --build .
-
-	```
-
-- Release:
-
-	```shell
-
-	cmake .. -DCMAKE_BUILD_TYPE=Release
+	cmake .. [-DCMAKE_BUILD_TYPE=<Debug/Release/RelWithDebInfo>] [-G <"Ninja", ...>]
 	cmake --build .
 
 	```
